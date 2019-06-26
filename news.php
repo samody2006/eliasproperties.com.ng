@@ -36,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
                 <h1>
-                    <a class="navbar-brand text-white" href="index.html">
+                    <a class="navbar-brand text-white" href="index.php">
                        <img src="images/logo.png" alt="Elias Properties">
                     </a>
                 </h1>
@@ -47,12 +47,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.html">Home
+                            <a class="nav-link" href="index.php">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item  mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="properties.html">Properties</a>
+                            <a class="nav-link" href="properties.php">Properties</a>
                         </li>
                         <li class="nav-item dropdown active mr-3 mt-lg-0 mt-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -60,16 +60,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 About
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="about.html">About Us</a>
+                                <a class="dropdown-item" href="about.php">About Us</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="news.html">News</a>
+                                <a class="dropdown-item" href="news.php">News</a>
                             </div>
                         </li>
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
+                            <a class="nav-link" href="gallery.php">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
 <!--                         <li>
                             <button type="button" class="btn  ml-lg-2 w3ls-btn" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">
@@ -105,9 +105,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
                 <h5 class="pt-4 pb-3">Flex row-reverse</h5>
                 <div class="d-flex flex-row-reverse bg-flex">
-                    <div class="p-2 bg-flex mb-1 bg-flex-item">Flex item 1</div>
-                    <div class="p-2 bg-flex mb-1 bg-flex-item">Flex item 2</div>
-                    <div class="p-2 bg-flex mb-1 bg-flex-item">Flex item 3</div>
+
                 </div>
                 <h5 class="pt-4 pb-3">Flex column</h5>
                 <div class="d-flex flex-column bg-flex">
@@ -325,7 +323,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <div class="col-lg-3 col-sm-6 footer-logo">
                         <h5>about us</h5>
                         <h2>
-                            <a href="index.html">Elias Properties</a>
+                            <a href="index.php">Elias Properties</a>
                         </h2>
                         <p class="mt-3">Affordable Housing, Stable Environment, Strategic Location
                         And Flexible Payment </p>
@@ -334,23 +332,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h5>Quick links</h5>
                         <ul class="list-unstyled quick-links">
                             <li>
-                                <a href="index.html">
+                                <a href="index.php">
                                 <i class="fa fa-angle-double-right"></i>Home</a>
                             </li>
                             <li>
-                                <a href="about.html">
+                                <a href="about.php">
                                     <i class="fa fa-angle-double-right"></i>About Us</a>
                             </li>
                             <li>
-                                <a href="Properties.html">
+                                <a href="Properties.php">
                                     <i class="fa fa-angle-double-right"></i>Properties</a>
                             </li>
                             <li>
-                                <a href="gallery.html">
+                                <a href="gallery.php">
                                     <i class="fa fa-angle-double-right"></i>Gallery</a>
                             </li>
                             <li>
-                                <a href="contact.html">
+                                <a href="contact.php">
                                     <i class="fa fa-angle-double-right"></i>Contact</a>
                             </li>
                         </ul>

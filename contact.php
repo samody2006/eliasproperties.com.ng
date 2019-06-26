@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-        <title>Elias Properties | About ::A Real Estate</title>
+    <title>Elias Properties | Contact ::A Real Estate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="ofada,mowe,ibeju-lekki, buy-sale, Rent, property, real-estate, Land" />
@@ -36,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
                 <h1>
-                    <a class="navbar-brand text-white" href="index.html">
+                    <a class="navbar-brand text-white" href="index.php">
                        <img src="images/logo.png" alt="Elias Properties">
                     </a>
                 </h1>
@@ -46,30 +46,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
-                        <li class="nav-item  mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.html">Home
+                        <li class="nav-item mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="index.php">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item  mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="properties.html">Properties</a>
+                            <a class="nav-link" href="properties.php">Properties</a>
                         </li>
-                        <li class="nav-item dropdown active mr-3 mt-lg-0 mt-3">
+                        <li class="nav-item dropdown mr-3 mt-lg-0 mt-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
                                 About
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="about.html">About Us</a>
+                                <a class="dropdown-item" href="about.php">About Us</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="news.html">News</a>
+                                <a class="dropdown-item" href="news.php">News</a>
                             </div>
                         </li>
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
+                            <a class="nav-link" href="gallery.php">Gallery</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                        <li class="nav-item  active">
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
 <!--                         <li>
                             <button type="button" class="btn  ml-lg-2 w3ls-btn" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">
@@ -85,150 +85,52 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
     <!-- //container -->
     <!-- //banner -->
-	<section class="banner_bottom py-md-5">
-		<div class="container py-4 mt-2">
-			<h3 class="heading-agileinfo">About  <span>Us</span></h3>
-			<div class="inner_sec_info_wthree_agile mt-md-5 pt-3">
-				<div class="row help_full">
-					<div class="col-lg-6 banner_bottom_grid help">
-						<img src="images/g5.jpeg" alt=" " class="img-fluid">
-					</div>
-					<div class="col-lg-6 banner_bottom_left">
-						<h4>Elias Properties</h4>
-						<p>A subsidiaries of Arc-View is dedicated at providing affordable housing through a flexible payment plan in a unique and serene environment.
-						To be a leading, world class real estate firm committed to providing housing for all.</p>
-						<p>ARC-VIEW INVESTEMENTS LIMITED (RC 919120) is a company that was fully established and duly incorporated in the year 2009 to carry on Real Estate business like Property Development, Property Management, Property & Facility Maintenance, Structural Designs, Architectural Designs, Legal Documentation Procurement and other related or interested businesses. Out of the desire of people (low income earners) to be their own Landlords/Landlady and the need of the ever growing Nigeria and especially Lagos population to expand in terms of the core need of man, SHELTER, we now manage and develop different estates all over Nigeria. Our Estates was structured to meet the needs of both low and high income earners. Our estates are open for prospects who wish to own a decent home in any part of Nigeria.</p>
-						</div>
-				</div>
-			</div>
+	 <!-- contact -->
+    <div class="container py-lg-5 mt-sm-5 mt-3">
+        <h3 class="agile-title text-uppercase"></h3>
+        <span class="w3-line"></span>
+		<div class="w3ls-titles text-center mb-5">
+			<h3 class="heading-agileinfo">Contact  <span>Us</span></h3>
 		</div>
-	</section>
-	<!--//ab-->
-		<!-- slide -->
-		<section class="slide-bg1 py-5">
-		<div class="container py-md-4 mt-md-3">
-				<div class="bg-pricemain mt-md-3 pt-5">
-					<h3 class="agile-title text-uppercase text-white">OUR OBJECTIVE </h3>
-					<h5 class="agile-title text-capitalize pt-4">at elias properties </h5>
-					<p class="text-light py-4">	
-					<ul>					
-						<li>Be the best company for the construction of standard and durable buildings and road at all times in Nigeria.</li>
-						<li>Help in the construction of affordable houses by sourcing for standard material at competitive prices all over Nigeria and beyond.</li>
-						<li>To be ahead of others in the construction of modern residential and industrial estates in Nigeria.</li>
-						<li>Market real estate at friendly price to the delightness of our clients.</li>
-						<li>Established to give the best architectural and structural designs that will be relevant even with passage of time.</li>
-						<li>It is our Objective To make building affordable.</li>
-						<li>To be the sole construction company in charge of the constructions and building of all estates developed by Arc-View Investment Limited anywhere in Nigeria.</li>
-						</ul>
-					</p>
-					<a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="services.html" role="button">View More</a></div>
-			</div>
-		</section>
-	<!-- //slide -->
-	<!-- team -->
-	<section class="team py-md-5">
-		<div class="container py-4 mt-2">
-		<h3 class="heading-agileinfo">Our  <span>Agents</span></h3>
-			<!-- <div class="row inner-sec-w3layouts-agileinfo mt-md-5 pt-3">
-				<div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-left">
-					<img src="images/te1.jpg" class="img-responsive" alt="">
-					<div class="team-info">
-						<div class="caption"> -->
-							<!-- <h4>John Doe</h4>
-							<h6>Lorem
-								</h6><h6>
-						</h6></div>
-						<div class="social-icons-section">
-							<a class="fac" href="#">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-							<a class="twitter" href="#">
-								<i class="fab fa-twitter"></i>
-							</a>
-							<a class="pinterest" href="#">
-								<i class="fab fa-pinterest-p"></i>
-							</a>
+        <div class="row py-md-5 py-sm-3">
+            <div class="col-md-6">
+                <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST">
+                    <div class="form-group">
+                        <label class="form-label" id="nameLabel" for="name"></label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" id="emailLabel" for="email"></label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" id="subjectLabel" for="subject"></label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" id="messageLabel" for="message"></label>
+                        <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>
+                    </div>
+                    <div class="text-center mt-5">
+                        <button type="submit" class="serv_bottom btn btn-border btn-lg w-100">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 map mt-md-0 mt-5">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6315353655!2d144.49269953060633!3d-37.971237044864175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne+VIC%2C+Australia!5e0!3m2!1sen!2sin!4v1532474074705"  allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- //contact -->
 
-						</div>
-
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-right">
-					<img src="images/te3.jpg" class="img-responsive" alt="">
-					<div class="team-info">
-						<div class="caption">
-							<h4>Alina Smith</h4>
-							<h6>Lorem</h6>
-						</div>
-						<div class="social-icons-section">
-							<a class="fac" href="#">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-							<a class="twitter" href="#">
-								<i class="fab fa-twitter"></i>
-							</a>
-							<a class="pinterest" href="#">
-								<i class="fab fa-pinterest-p"></i>
-							</a>
-
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-left">
-					<img src="images/te2.jpg" class="img-responsive" alt="">
-					<div class="team-info">
-						<div class="caption">
-							<h4>Adam Lobster</h4>
-							<h6>Lorem</h6>
-						</div>
-						<div class="social-icons-section">
-							<a class="fac" href="#">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-							<a class="twitter" href="#">
-								<i class="fab fa-twitter"></i>
-							</a>
-							<a class="pinterest" href="#">
-								<i class="fab fa-pinterest-p"></i>
-							</a>
-
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-right">
-					<img src="images/te4.jpg" class="img-responsive" alt="">
-					<div class="team-info">
-						<div class="caption">
-							<h4>Chris Woakes </h4>
-							<h6>Lorem</h6>
-						</div>
-						<div class="social-icons-section">
-							<a class="fac" href="#">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-							<a class="twitter" href="#">
-								<i class="fab fa-twitter"></i>
-							</a>
-							<a class="pinterest" href="#">
-								<i class="fab fa-pinterest-p"></i>
-							</a>
-
-						</div>
-					</div> -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- //team -->
-
-<!-- Footer -->
+	<!-- Footer -->
 <footer id="footer" class="py-5">
             <div class="container">
                 <div class="row  py-lg-5">
                     <div class="col-lg-3 col-sm-6 footer-logo">
                         <h5>about us</h5>
                         <h2>
-                            <a href="index.html">Elias Properties</a>
+                            <a href="index.php">Elias Properties</a>
                         </h2>
                         <p class="mt-3">Affordable Housing, Stable Environment, Strategic Location
                         And Flexible Payment </p>
@@ -237,23 +139,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h5>Quick links</h5>
                         <ul class="list-unstyled quick-links">
                             <li>
-                                <a href="index.html">
+                                <a href="index.php">
                                 <i class="fa fa-angle-double-right"></i>Home</a>
                             </li>
                             <li>
-                                <a href="about.html">
+                                <a href="about.php">
                                     <i class="fa fa-angle-double-right"></i>About Us</a>
                             </li>
                             <li>
-                                <a href="Properties.html">
+                                <a href="Properties.php">
                                     <i class="fa fa-angle-double-right"></i>Properties</a>
                             </li>
                             <li>
-                                <a href="gallery.html">
+                                <a href="gallery.php">
                                     <i class="fa fa-angle-double-right"></i>Gallery</a>
                             </li>
                             <li>
-                                <a href="contact.html">
+                                <a href="contact.php">
                                     <i class="fa fa-angle-double-right"></i>Contact</a>
                             </li>
                         </ul>

@@ -36,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
                 <h1>
-                    <a class="navbar-brand text-white" href="index.html">
+                    <a class="navbar-brand text-white" href="index.php">
                        <img src="images/logo.png" alt="Elias Properties">
                     </a>
                 </h1>
@@ -47,12 +47,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
                         <li class="nav-item active  mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.html">Home
+                            <a class="nav-link" href="index.php">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item  mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="properties.html">properties</a>
+                            <a class="nav-link" href="properties.php">properties</a>
                         </li>
                         <li class="nav-item dropdown mr-3 mt-lg-0 mt-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -60,16 +60,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 About
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="about.html">About</a>
+                                <a class="dropdown-item" href="about.php">About</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="news.html">News</a>
+                                <a class="dropdown-item" href="news.php">News</a>
                             </div>
                         </li>
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
+                            <a class="nav-link" href="gallery.php">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
 <!--                         <li>
                             <button type="button" class="btn  ml-lg-2 w3ls-btn" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">
@@ -86,7 +86,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="banner-text">
                 <div class="slider-info">
                     <h3>Find a Home to Suit Your Lifestyle</h3>
-                    <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="properties.html" role="button">View More</a>
+                    <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="properties.php" role="button">View More</a>
                 </div>
             </div>
         </div>
@@ -104,7 +104,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					  <h5 class="card-title">Hot Offer!</h5>
 					  <p class="card-text mb-3">Finished 4 Bedroom Duplex + 1 Room BQ | Treasure Island Residence, Akodo, Ibeju-Lekki</p>
 						<div class="ab_button">
-							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="about.html" role="button">Read More </a>
+							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="about.php" role="button">Read More </a>
 						</div>
 					</div>
 				  </div>
@@ -116,7 +116,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						CARCASS SELLS FOR N25MILLION.
 						</p>
 						<div class="ab_button">
-							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="about.html" role="button">Read More </a>
+							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="about.php" role="button">Read More </a>
 						</div>
 					</div>
 				  </div>
@@ -127,7 +127,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					   <p class="card-text mb-3 ">Looking for space, comfort and a touch of Luxury? This is a perfect home for you.<br>
 					   2-Bedroom Apartment | Treasures Island Homes, Mowe</p>
 						<div class="ab_button">
-							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="about.html" role="button">Read More </a>
+							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="about.php" role="button">Read More </a>
 						</div>
 					</div>
 				  </div>
@@ -136,7 +136,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </section>
 	<!-- //courses -->
 	<!-- slide -->
-		<section class="slide-bg py-5">
+<!-- 		<section class="slide-bg py-5">
 			<div class="container py-md-4 mt-md-3">
 				<div class="bg-pricemain mt-md-3 pt-5">
 					<h3 class="agile-title text-uppercase text-white">Mauris et justo </h3>
@@ -146,7 +146,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</p>
 					<a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr scroll" href="services" role="button">View More</a></div>
 			</div>
-		</section>
+		</section> -->
 	<!-- //slide -->
 <!-- Clients -->
 	<div class="clients py-5">
@@ -161,8 +161,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<img src="images/t1.jpg" class="img-fluid" alt="" />
 								</div>
 								<div class="col-md-9 client">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
-									<h5>Gerald Roy</h5>
+									<p>very very happy.</p>
+									<h5>@</h5>
 								</div>
 							</div>
 						</li>
@@ -172,8 +172,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<img src="images/t2.jpg" class="img-fluid" alt="" />
 								</div>
 								<div class="col-md-9 client">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
-									<h5>Gerald Roy</h5>
+									<p>am a landlord all thanks to Elias properties  .</p>
+									<h5>Adekola</h5>
 								</div>
 							</div>
 						</li>
@@ -183,8 +183,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<img src="images/t3.jpg" class="img-fluid" alt="" />
 								</div>
 								<div class="col-md-9 client">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
-									<h5>Gerald Roy</h5>
+									<p>Thnaks .</p>
+									<h5>Ola</h5>
 								</div>
 							</div>
 						</li>
@@ -194,8 +194,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<img src="images/t4.jpg" class="img-fluid" alt="" />
 								</div>
 								<div class="col-md-9 client">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
-									<h5>Gerald Roy</h5>
+									<p>Landlord.</p>
+									<h5>Esther</h5>
 								</div>
 							</div>
 						</li>
@@ -315,7 +315,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="col-lg-3 col-sm-6 footer-logo">
 						<h5>about us</h5>
 						<h2>
-							<a href="index.html">Elias Properties</a>
+							<a href="index.php">Elias Properties</a>
 						</h2>
 						<p class="mt-3">Affordable Housing, Stable Environment, Strategic Location
                         And Flexible Payment </p>
@@ -324,23 +324,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h5>Quick links</h5>
 						<ul class="list-unstyled quick-links">
 							<li>
-								<a href="index.html">
+								<a href="index.php">
 								<i class="fa fa-angle-double-right"></i>Home</a>
 							</li>
 							<li>
-								<a href="about.html">
+								<a href="about.php">
 									<i class="fa fa-angle-double-right"></i>About Us</a>
 							</li>
 							<li>
-								<a href="Properties.html">
+								<a href="Properties.php">
 									<i class="fa fa-angle-double-right"></i>Properties</a>
 							</li>
 							<li>
-								<a href="gallery.html">
+								<a href="gallery.php">
 									<i class="fa fa-angle-double-right"></i>Gallery</a>
 							</li>
 							<li>
-								<a href="contact.html">
+								<a href="contact.php">
 									<i class="fa fa-angle-double-right"></i>Contact</a>
 							</li>
 						</ul>
@@ -399,7 +399,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- /Footer -->
 
 	<!-- login  -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -441,8 +441,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
     </div>
-    <!-- //login -->
-	 <!--/Register-->
+    <!-- //login
+	 <!--/Register
     <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -486,7 +486,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             </div>
         </div>
-    </div>
+    </div> --> -->
     <!--//Register-->
 
     <!-- //footer -->

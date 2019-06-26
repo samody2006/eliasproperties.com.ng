@@ -6,12 +6,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <title>Elias Properties | Contact ::A Real Estate</title>
+    <title>Elias Properties | Properties ::A Real Estate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
-    <meta name="keywords" content="ofada, archview, investment, TREASURE-ISLAND, mowe, ibeju-lekki, buy-sale, ESTATE, Rent, property, real-estate, Land" />
-    <script>
-        addEventListener("load", function () {
+    <meta name="keywords" content="ofada,mowe,ibeju-lekki, buy-sale, Rent, property, real-estate, Land" />
+    <script>        addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
         }, false);
 
@@ -36,7 +35,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
                 <h1>
-                    <a class="navbar-brand text-white" href="index.html">
+                    <a class="navbar-brand text-white" href="index.php">
                        <img src="images/logo.png" alt="Elias Properties">
                     </a>
                 </h1>
@@ -47,12 +46,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto text-center">
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="index.html">Home
+                            <a class="nav-link" href="index.php">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item  mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="properties.html">Properties</a>
+                        <li class="nav-item active  mr-3 mt-lg-0 mt-3">
+                            <a class="nav-link" href="properties.php">properties</a>
                         </li>
                         <li class="nav-item dropdown mr-3 mt-lg-0 mt-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -60,18 +59,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 About
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="about.html">About Us</a>
+                                <a class="dropdown-item" href="about.php">About Us</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="news.html">News</a>
+                                <a class="dropdown-item" href="news.php">News</a>
                             </div>
                         </li>
                         <li class="nav-item mr-3 mt-lg-0 mt-3">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
+                            <a class="nav-link" href="gallery.php">Gallery</a>
                         </li>
-                        <li class="nav-item  active">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
-<!--                         <li>
+                        <!-- <li>
                             <button type="button" class="btn  ml-lg-2 w3ls-btn" data-toggle="modal" aria-pressed="false" data-target="#exampleModal">
                                 Login
                             </button>
@@ -85,52 +84,138 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
     <!-- //container -->
     <!-- //banner -->
-	 <!-- contact -->
-    <div class="container py-lg-5 mt-sm-5 mt-3">
-        <h3 class="agile-title text-uppercase"></h3>
-        <span class="w3-line"></span>
-		<div class="w3ls-titles text-center mb-5">
-			<h3 class="heading-agileinfo">Contact  <span>Us</span></h3>
-		</div>
-        <div class="row py-md-5 py-sm-3">
-            <div class="col-md-6">
-                <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST">
-                    <div class="form-group">
-                        <label class="form-label" id="nameLabel" for="name"></label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
+			<!-- /services -->
+<section class="what_you w3-about py-5">
+		<div class="container py-md-4 mt-md-3">
+<h3 class="heading-agileinfo">Our  <span>Properties</span></h3>
+            <span class="w3-line black"></span>
+            <div class="card-deck mt-md-5 pt-5">
+                  <div class="card">
+                    <img src="images/g4.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">3 Bedroom Bungalow</h5><a class="btn btn-warning">8.5 Million</a>
+                      <p class="card-text mb-3 ">Tresure Island Mowe/Ofada.</p>
+                      <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#" role="button">Read More</a>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label" id="emailLabel" for="email"></label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
+                    
+                  </div>
+                  <div class="card">
+                    <img src="images/g9.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">2 Bedroom Bungalow</h5><a class="btn btn-warning">6 Million</a>
+                       <p class="card-text mb-3 ">Tresure Island Mowe/Ofada.</p>
+                      <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#" role="button">Read More</a>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label" id="subjectLabel" for="subject"></label>
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+                    
+                  </div>
+                  <div class="card">
+                    <img src="images/g8.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">2 Bedroom Apartment</h5><a class="btn btn-warning">5 Million</a>
+                        <p class="card-text mb-3 ">Tresure Island Mowe/Ofada.</p>
+                      <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#" role="button">Read More</a>
                     </div>
-                    <div class="form-group">
-                        <label class="form-label" id="messageLabel" for="message"></label>
-                        <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>
-                    </div>
-                    <div class="text-center mt-5">
-                        <button type="submit" class="serv_bottom btn btn-border btn-lg w-100">Send Message</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-6 map mt-md-0 mt-5">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.110575408628!2d3.364379714770617!3d6.507685095292652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c439d25b03b%3A0xa7db3fab7240ea3b!2s28+Modele+St%2C+Yaba%2C+Lagos!5e0!3m2!1sen!2sng!4v1559844830213!5m2!1sen!2sng" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-    <!-- //contact -->
+                  </div>
 
-	<!-- Footer -->
-<footer id="footer" class="py-5">
+                              <div class="card-deck mt-md-5 pt-5">
+                  <div class="card">
+                    <img src="images/g2.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">3 Bedroom Apartment</h5><a class="btn btn-warning">7.5 Million</a>
+                      <p class="card-text mb-3 ">Tresure Island Mowe/Ofada.</p>
+                      <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#" role="button">Read More</a>
+                    </div>
+                    
+                  </div>
+                  <div class="card">
+                    <img src="images/akodo1.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">4 Bedroom Duplex</h5><a class="btn btn-warning">27.5 Million</a>
+                       <p class="card-text mb-3 ">Tresure Homes Akodo-Ibeju Lekki.</p>
+                      <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#" role="button">Read More</a>
+                    </div>
+                    
+                  </div>
+                  <div class="card">
+                    <img src="images/g4.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">3 Bedroom Bugalow</h5><a class="btn btn-warning">16 Million</a>
+                       <p class="card-text mb-3 ">Tresure Homes Akodo-Ibeju Lekki.</p>
+                      <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#" role="button">Read More</a>
+                    </div>
+                  </div>
+
+                              <div class="card-deck mt-md-5 pt-5">
+                  <div class="card">
+                    <img src="images/g1.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">Buying a home</h5>
+                      <p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    
+                  </div>
+                  <div class="card">
+                    <img src="images/g5.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">Refinancing</h5>
+                      <a class="btn btn-warning">2.5 Million</a>
+                       <p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    
+                  </div>
+                  <div class="card">
+                    <img src="images/g9.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">Credit Service</h5>
+                      <a class="btn btn-warning">2.5 Million</a>
+                       <p class="card-text mb-3">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+
+                              <div class="card-deck mt-md-5 pt-5">
+                  <div class="card">
+                    <img src="images/g10.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">Tresure Island Mowe/Ofada</h5>
+                      <a class="btn btn-warning">1.5 Million</a>
+                      <p class="card-text mb-3 ">Full Plot(s) of Land (648SQM), Excluding Survey, Legal & Developmental fee.</p>
+                    </div>
+                    
+                  </div>
+                  <div class="card">
+                    <img src="images/g10.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">Tresure Island  Akodo-Ibeju lekki</h5>
+                      <a class="btn btn-warning">5 Million</a>
+                       <p class="card-text mb-3 ">Serviced Plots of land.</p>
+                    </div>
+                    
+                  </div>
+                  <div class="card">
+                    <img src="images/g10.jpeg" class="img-fluid" alt="Card image cap">
+                    <div class="card-body w3ls-card">
+                      <h5 class="card-title">Tresure Island Agbara/Igbesa</h5>
+                      <a class="btn btn-warning">2.5 Million</a>
+                       <p class="card-text mb-3">Full Plot(s) of Land (648SQM), Excluding Survey, Legal & Developmental fee.</p>
+                    </div>
+                  </div>
+                </div>
+	</div>
+</section>
+
+<!-- //services -->
+<!-- news -->
+</section>
+<!-- //news -->
+
+	   <!-- Footer -->
+        <footer id="footer" class="py-5">
             <div class="container">
                 <div class="row  py-lg-5">
                     <div class="col-lg-3 col-sm-6 footer-logo">
                         <h5>about us</h5>
                         <h2>
-                            <a href="index.html">Elias Properties</a>
+                            <a href="index.php">Elias Properties</a>
                         </h2>
                         <p class="mt-3">Affordable Housing, Stable Environment, Strategic Location
                         And Flexible Payment </p>
@@ -139,23 +224,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <h5>Quick links</h5>
                         <ul class="list-unstyled quick-links">
                             <li>
-                                <a href="index.html">
+                                <a href="index.php">
                                 <i class="fa fa-angle-double-right"></i>Home</a>
                             </li>
                             <li>
-                                <a href="about.html">
+                                <a href="about.php">
                                     <i class="fa fa-angle-double-right"></i>About Us</a>
                             </li>
                             <li>
-                                <a href="Properties.html">
+                                <a href="Properties.php">
                                     <i class="fa fa-angle-double-right"></i>Properties</a>
                             </li>
                             <li>
-                                <a href="gallery.html">
+                                <a href="gallery.php">
                                     <i class="fa fa-angle-double-right"></i>Gallery</a>
                             </li>
                             <li>
-                                <a href="contact.html">
+                                <a href="contact.php">
                                     <i class="fa fa-angle-double-right"></i>Contact</a>
                             </li>
                         </ul>
